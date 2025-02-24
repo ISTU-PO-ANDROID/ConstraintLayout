@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         val binding: ActivityMainBinding = DataBindingUtil.setContentView(this, R.layout.activity_main)
 //        val chainButton = findViewById<Button>(R.id.chainButton)
 
-        binding.name = "Hello world!"
+        binding.name = "Hello world??????"
 
         binding.chainButton.setOnClickListener{
             val intent = Intent(this, ChainActivity::class.java)
